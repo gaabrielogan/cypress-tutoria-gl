@@ -1,0 +1,106 @@
+/* Defina estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize o cabeçalho e o subtítulo */
+#title {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#subtitle {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilize as mensagens de sucesso e erro */
+.success, .error {
+    font-weight: bold;
+    display: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.success {
+    color: #007f00;
+    background-color: #ccffcc;
+}
+
+.error {
+    color: #ff0000;
+    background-color: #ffc8c8;
+}
+
+/* Estilize o formulário */
+#white-background {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilize os campos de entrada de texto */
+.field {
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333; /* Cor do texto */
+    background-color: #f7f7f7; /* Cor de fundo dos campos de entrada */
+}
+
+/* Estilize o botão de envio */
+.button {
+    background-color: #007f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilize o link de política de privacidade */
+#privacy a {
+    text-decoration: none;
+    color: #007f00;
+    display: block;
+    text-align: center;
+}
+
+/* Adicione algum espaçamento entre os elementos */
+.group {
+    margin-bottom: 20px;
+}
+
+/* Estilize o ícone do gato */
+#cat {
+    font-size: 40px;
+    text-align: center;
+    display: none; /* Oculta o ícone do gato */
+}
+
+
+/* Estilize os rótulos das opções de contato preferencial */
+#check label {
+    margin-right: 10px;
+}
